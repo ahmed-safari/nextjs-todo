@@ -18,6 +18,9 @@ In the pipeline is a host of new features and optimizations. The most exciting o
 
 Todo Master supports both dark and light modes for your comfort. Choose what suits your eyes or your mood best!
 
+## 🔴 Live Version
+Check out the live version of TodoMatic here: https://todo.sp0der.me
+
 ## 🔧 Installation
 
 To get started with Todo Master, you need to clone this repository:
