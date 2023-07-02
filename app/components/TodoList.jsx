@@ -1,7 +1,17 @@
+"use client";
+import { useState } from "react";
 import TodoItem from "./TodoItem";
 
 const TodoList = ({ todoList, addItem, setNewItem, newItem }) => {
   // console.log("Meow:", todoList);
+  const [didCopy, setDidCopy] = useState(false);
+  const copyLink = (e) => {
+    e.preventDefault();
+    navigator.clipboard.writeText(
+      "https://todo.sp0der.me/list/" + todoList.code
+    );
+    setDidCopy(true);
+  };
   return (
     <>
       {/* <!-- Component Start --> */}
@@ -26,8 +36,11 @@ const TodoList = ({ todoList, addItem, setNewItem, newItem }) => {
               {todoList.title}
             </h4>
           </div>
-          <button className="flex items-center px-3 py-1 bg-indigo-500 text-white font-small text-sm rounded hover:bg-indigo-600">
-            Copy Link
+          <button
+            onClick={copyLink}
+            className="flex items-center px-3 py-1 bg-indigo-500 text-white font-small text-sm rounded hover:bg-indigo-600"
+          >
+            {didCopy ? "Link Copied!" : "Copy Link"}
           </button>
         </div>
 
