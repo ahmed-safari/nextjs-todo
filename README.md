@@ -19,7 +19,7 @@ In the pipeline is a host of new features and optimizations. The most exciting o
 Todo Master supports both dark and light modes for your comfort. Choose what suits your eyes or your mood best!
 
 ## 🔴 Live Version
-Check out the live version of TodoMatic here: https://todo.sp0der.me
+Check out the live version of Todo Master here: https://todo.sp0der.me
 
 ## 🔧 Installation
 
@@ -70,7 +70,7 @@ MIT License. See [LICENSE](LICENSE) for more information.
 
 ## 👏 Acknowledgements
 
-Special thanks to Rob Stinson for the [original design](https://codepen.io/robstinson/pen/YzGLMYw) on CodePen which served as the inspiration for the look and feel of TodoMatic.
+Special thanks to Rob Stinson for the [original design](https://codepen.io/robstinson/pen/YzGLMYw) on CodePen which served as the inspiration for the look and feel of Todo Master.
 
 ---
 
